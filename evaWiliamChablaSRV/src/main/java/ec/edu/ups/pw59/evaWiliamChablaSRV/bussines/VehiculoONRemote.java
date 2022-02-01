@@ -2,13 +2,13 @@ package ec.edu.ups.pw59.evaWiliamChablaSRV.bussines;
 
 import java.util.List;
 
-import javax.ejb.Local;
+import javax.ejb.Remote;
 
 import ec.edu.ups.pw59.evaWiliamChablaSRV.modelo.Vehiculo;
 
 
-@Local
-public interface VehiculoONLocal {
+@Remote
+public interface VehiculoONRemote {
 	
 	public void insert(Vehiculo p) throws Exception;
 	public void guardar(Vehiculo p) throws Exception;

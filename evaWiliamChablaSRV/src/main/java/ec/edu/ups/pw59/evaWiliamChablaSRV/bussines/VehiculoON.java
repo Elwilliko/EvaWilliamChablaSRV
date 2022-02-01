@@ -5,8 +5,6 @@ import java.util.List;
 import javax.ejb.Stateless;
 import javax.inject.Inject;
 
-import ec.edu.ups.pw59.automoviles.bussines.VehiculoONLocal;
-import ec.edu.ups.pw59.automoviles.bussines.VehiculoONRemote;
 import ec.edu.ups.pw59.evaWiliamChablaSRV.dao.VehiculoDao;
 import ec.edu.ups.pw59.evaWiliamChablaSRV.modelo.Vehiculo;
 
